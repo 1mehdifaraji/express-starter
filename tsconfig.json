@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6"],
+    "allowJs": true,
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "baseUrl": "./src",
+    "experimentalDecorators": true /* TypeORM required /* Enable experimental support for TC39 stage 2 draft decorators. */,
+    "strictPropertyInitialization": false /* TypeORM required */,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@config/*": ["config/*"],
+      "@controller/*": ["controller/*"],
+      "@middleware/*": ["middleware/*"],
+      "@model/*": ["model/*"],
+      "@public/*": ["public/*"],
+      "@route/*": ["route/*"],
+      "@service/*": ["service/*"],
+      "@util/*": ["util/*"]
+    }
+  },
+  "include": ["src"]
+}
